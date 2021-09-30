@@ -1,2 +1,1 @@
-# pudna-sdk
-Mobile analys
+### Poiont Lib SDK
