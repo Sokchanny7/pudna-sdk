@@ -2,4 +2,4 @@
 
 @protocol PudnaDelegate<NSObject>
 
-@optional
+@end
