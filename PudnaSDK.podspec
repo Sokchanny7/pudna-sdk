@@ -11,7 +11,7 @@ s.license               = 'MIT'
 s.author                = { "Cooper" => "pudna@gmail.com"}
 s.source                = { :git => "https://github.com/Sokchanny7/pudna-sdk.git", :tag => s.version.to_s }
 
-s.vendored_libraries = 'frameworks/libVixelSDK.a'
+# s.vendored_libraries = 'frameworks/libPoint.a'
 s.source_files = 'Classes/**/*.{h,m}'
 
 s.platform              = :ios, '9.0'
