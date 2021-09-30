@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name                  = "libPoint"
+s.name                  = "PudnaSDK"
 s.version               = "0.0.1.LOCAL"
 s.summary               = "pudna's officially supported iOS SDK"
 s.description           = <<-DESC
@@ -11,10 +11,10 @@ s.license               = 'MIT'
 s.author                = { "Cooper" => "pudna@gmail.com"}
 s.source                = { :git => "https://github.com/Sokchanny7/pudna-sdk.git", :tag => s.version.to_s }
 
-s.vendored_libraries = 'frameworks/libPoint.a'
+s.vendored_libraries = 'frameworks/libVixelSDK.a'
 s.source_files = 'Classes/**/*.{h,m}'
 
-s.platform              = :ios, '8.0'
+s.platform              = :ios, '9.0'
 s.pod_target_xcconfig   = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 end
