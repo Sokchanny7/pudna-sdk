@@ -3,3 +3,7 @@
 @protocol PudnaDelegate<NSObject>
 
 @end
+
+@interface OpenSDK : NSObject
+
+@end
