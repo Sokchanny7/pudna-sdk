@@ -6,7 +6,7 @@ s.description           = <<-DESC
 pudna's officially supported iOS SDK for pod.
 DESC
 
-s.homepage              = "https://www.example.io"
+# s.homepage              = "https://www.example.io"
 s.license               = 'MIT'
 s.author                = { "Cooper" => "pudna@gmail.com"}
 s.source                = { :git => "https://github.com/Sokchanny7/pudna-sdk.git", :tag => s.version.to_s }
