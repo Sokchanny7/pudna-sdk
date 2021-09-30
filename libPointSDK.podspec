@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                  = "libPoint"
-s.version               = '2.5.4.1'
+s.version               = "0.0.1.LOCAL"
 s.summary               = "pudna's officially supported iOS SDK"
 s.description           = <<-DESC
 pudna's officially supported iOS SDK for pod.
