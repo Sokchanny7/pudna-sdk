@@ -9,7 +9,7 @@ DESC
 s.homepage              = "https://vixel-admin.vercel.app"
 s.license               = 'MIT'
 s.author                = { "Cooper" => "pudna@gmail.com"}
-s.source                = { :git => "https://github.com/Sokchanny7/pudna-sdk.git", :branch => "main", :tag => s.version.to_s }
+s.source                = { :git => "https://github.com/Sokchanny7/pudna-sdk.git", :branch => "0.0.4", :tag => s.version.to_s }
 s.vendored_libraries    = 'frameworks/libPudnaSDK.a'
 s.source_files          = 'Classes/**/*.{h,m}'
 
