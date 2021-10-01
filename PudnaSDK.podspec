@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                  = "PudnaSDK"
-s.version               = "0.0.3"
+s.version               = "0.0.4"
 s.summary               = "pudna's officially supported iOS SDK"
 s.description           = <<-DESC
 pudna's officially supported iOS SDK for pod.
@@ -14,6 +14,6 @@ s.vendored_libraries    = 'frameworks/libPudnaSDK.a'
 s.source_files          = 'Classes/**/*.{h,m}'
 
 s.platform              = :ios, '9.0'
-s.pod_target_xcconfig   = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+s.pod_target_xcconfig   = { 'VALID_ARCHS' => 'armv7 arm64' }
 
 end
