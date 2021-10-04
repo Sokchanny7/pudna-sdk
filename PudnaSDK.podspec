@@ -13,7 +13,7 @@ s.source                = { :git => "https://github.com/Sokchanny7/pudna-sdk.git
 s.vendored_libraries    = 'frameworks/libPudnaSDK.a'
 s.source_files          = 'Classes/**/*.{h,m}'
 
-s.platform              = :ios, '9.0'
-s.pod_target_xcconfig   = { 'VALID_ARCHS' => 'arm64' }
+s.platform              = :ios, '11.0'
+s.pod_target_xcconfig   = { 'ONLY_ACTIVE_ARCH' => 'YES' }
 
 end
