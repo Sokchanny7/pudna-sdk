@@ -6,7 +6,7 @@ s.description           = <<-DESC
 pudna's officially supported iOS SDK for pod.
 DESC
 
-s.homepage              = "https://vixel-admin.vercel.app"
+s.homepage              = "https://cocoapods.org/pods/PudnaSDK"
 s.license               = 'MIT'
 s.author                = { "Cooper" => "sokchanny.sg@gmail.com"}
 s.source                = { :git => "https://github.com/Sokchanny7/pudna-sdk.git", :branch => "0.0.4", :tag => s.version.to_s }
